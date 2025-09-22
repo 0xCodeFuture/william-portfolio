@@ -55,7 +55,7 @@ export function ConnectSection() {
       icon: <Mail className="h-5 w-5" />,
       label: "Email",
       value: "williamhatton250@gmail.com",
-      href: "mailto:williamhatton250@gmail.com",
+      href: "https://mail.google.com/mail/?view=cm&fs=1&to=williamhatton250@gmail.com",
       description: "Best for detailed discussions",
     },
     {

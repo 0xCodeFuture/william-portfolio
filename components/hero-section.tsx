@@ -1,5 +1,13 @@
-import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail, Phone, Sparkles, Code, Zap } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import {
+  Github,
+  Linkedin,
+  Mail,
+  Phone,
+  Sparkles,
+  Code,
+  Zap,
+} from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -32,11 +40,13 @@ export function HeroSection() {
           </h1>
           <h2 className="text-2xl md:text-3xl mb-8 font-medium text-white drop-shadow-md relative">
             <span className="absolute inset-0 bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent blur-sm opacity-50"></span>
-            <span className="relative">Senior Software Engineer</span>
+            <span className="relative">Senior Full Stack Engineer</span>
           </h2>
           <p className="text-xl md:text-2xl text-white/95 mb-12 max-w-3xl mx-auto text-balance leading-relaxed drop-shadow-sm">
-            12+ years of experience crafting exceptional digital solutions across Healthcare, Fintech, eCommerce,
-            AdTech, and SaaS platforms. Specializing in Full Stack Development, DevOps, and AI/ML technologies.
+            12+ years of proven experience delivering scalable digital solutions
+            across AI-powered SaaS, Healthcare, eCommerce, and Fintech
+            platforms, with deep technical specialization in Full Stack
+            Development, DevOps, and AI/ML technologies.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -56,7 +66,11 @@ export function HeroSection() {
               size="lg"
               className="border-2 border-white text-white hover:bg-white hover:text-slate-900 font-semibold shadow-xl hover:shadow-2xl transition-all duration-300 bg-slate-800/50 backdrop-blur-sm"
             >
-              <a href="https://github.com/0xCodeFuture" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/0xCodeFuture"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Github className="mr-2 h-5 w-5" />
                 GitHub
               </a>
@@ -67,7 +81,11 @@ export function HeroSection() {
               size="lg"
               className="border-2 border-secondary text-secondary hover:bg-secondary hover:text-white font-semibold shadow-xl hover:shadow-2xl transition-all duration-300 bg-white/10 backdrop-blur-sm"
             >
-              <a href="https://linkedin.com/in/william-hatton-518814237" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://linkedin.com/in/william-hatton-518814237"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Linkedin className="mr-2 h-5 w-5" />
                 LinkedIn
               </a>
@@ -87,5 +105,5 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

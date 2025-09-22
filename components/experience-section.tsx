@@ -16,7 +16,7 @@ export function ExperienceSection() {
       company: "DockYard",
       period: "September 2019 - September 2022",
       duration: "3 years",
-      role: "Senior Software Engineer",
+      role: "Senior Full Stack Engineer",
       description:
         "Developed complex web applications and implemented DevOps best practices",
     },
@@ -24,7 +24,7 @@ export function ExperienceSection() {
       company: "BairesDev",
       period: "February 2015 - August 2019",
       duration: "4+ years",
-      role: "Software Engineer",
+      role: "Freelance Software Engineer",
       description:
         "Built scalable solutions for international clients across multiple industries",
     },
@@ -32,19 +32,13 @@ export function ExperienceSection() {
       company: "Clover Health",
       period: "February 2013 - January 2015",
       duration: "2 years",
-      role: "Software Developer",
+      role: "Full Stack Developer",
       description:
         "Contributed to healthcare platform development and data analytics",
     },
   ];
 
-  const industries = [
-    "Healthcare Platform",
-    "eCommerce",
-    "AdTech",
-    "Fintech",
-    "SaaS",
-  ];
+  const industries = ["AI-powered SaaS", "Healthcare", "eCommerce", "Fintech"];
 
   return (
     <section id="experience" className="py-20 px-4 bg-card/20">

@@ -127,9 +127,9 @@ export function ProjectsSection() {
                     <ExternalLink className="h-4 w-4 mr-2" />
                     View Details
                   </Button>
-                  <Button size="sm" variant="ghost">
+                  {/* <Button size="sm" variant="ghost">
                     <Github className="h-4 w-4" />
-                  </Button>
+                  </Button> */}
                 </div>
               </CardContent>
             </Card>
